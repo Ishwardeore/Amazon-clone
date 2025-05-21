@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added to ensure padding and margin are included in the element's total width and height */
+    font-family: Arial, sans-serif; /* Added a font-family for better text rendering */
+}
+
+body {
+    background-color: #f4f4f4; /* Light background color for the entire page */
+}
+
+.navbar {
+    background-color: rgb(58, 31, 101); /* Bright green navbar */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center the items vertically */
+}
+
+.navbar .logo {
+    width: 80px; /* Logo width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between logo and navbar items */
+}
+
+.navbar ul {
+    display: flex; /* Flexbox for better horizontal alignment */
+    justify-content: flex-end; /* Align links to the right */
+    list-style-type: none; /* Remove bullets */
+}
+
+.navbar ul li {
+    margin: 0 20px; /* Add space between list items (adjusted to 20px for more consistent spacing) */
+    display: inline-block; /* Keep list items inline but allow them to behave like blocks for spacing */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: aliceblue; /* Link color */
+    font-weight: bold; /* Optional: Make links bold */
+    padding: 10px 15px; /* Add padding for clickable area */
+}
+
+.navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Hover effect */
+    border-radius: 5px; /* Slight rounded corners on hover */
+}
+
